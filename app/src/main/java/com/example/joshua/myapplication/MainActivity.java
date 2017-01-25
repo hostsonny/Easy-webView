@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         webView = (WebView)findViewById(R.id.webvi);
         WebSettings websettings = webView.getSettings();
         websettings.setJavaScriptEnabled(true);
-        webView.loadUrl("http://192.168.2.1.xip.io/dev-site/?appkey=j156S92cfL");
+        webView.loadUrl("http://yourURL.com");
         webView.setWebViewClient(new WebViewClient());
     }
 
